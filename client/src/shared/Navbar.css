@@ -1,0 +1,63 @@
+:root {
+  --redux-color: #764abc;
+}
+nav {
+  display: flex;
+  padding: 0;
+  background: var(--redux-color);
+}
+
+nav section {
+  width: 100%;
+}
+
+nav section h1,
+nav section {
+  color: white;
+}
+
+nav a,
+nav a:active {
+
+  font-weight: 700;
+  padding: 0.25rem 1.5rem;
+  border-radius: 4px;
+  color: white !important;
+  background: #481499;
+}
+
+nav a:first-of-type {
+  margin-left: -1.5rem;
+}
+
+nav a:hover, nav a.active {
+  color: white;
+  background: #926bcf;
+}
+
+.navContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navLinks {
+  display: flex;
+}
+
+.navLinks a {
+  margin-left: 5px;
+}
+
+.navLinks :first-child {
+  margin-left: 0;
+}
+
+nav section {
+  width: 100%;
+}
+section {
+  /* max-width: 800px; */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1.5rem;
+}

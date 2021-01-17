@@ -1,0 +1,11 @@
+.error {
+    color: red
+}
+.alert.error {
+    padding: 1em 2em;
+    border-radius: 0.2em;
+    color: #fff;
+    justify-content: center;
+    font-weight: 600;
+    background-color: red;
+}
